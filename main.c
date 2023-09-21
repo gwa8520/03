@@ -5,14 +5,12 @@
 
 int main(int argc, char *argv[]) {
 
-	char c;
+	int boonja,boonmo;
 	
-	printf("enter a character:");
-	scanf("%c",&c);
+	printf("enter the boonja and boonmo");
+	scanf("%i,%i",&boonja,&boonmo);
 	
-	
-	printf("next character of %c (%d) is %c (%d)\n",c,c,c+1,c+1);
-	
+	printf("It's the result of dividing: %f",(float)boonja/boonmo);
 
 	return 0;
 }
